@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html background-image: url('picture.jpg')>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Log in</title>
+  <title>Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -26,11 +26,14 @@
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    
+  <link rel="stylesheet" href="../../css/SmartColCommon.css">
+  
 </head>
-<body class="hold-transition login-page">
+<body class="BackgroundFullImage" >
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.jsp"><b>Module Name</b></a>
+    <a><b>Welcome College Name</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
@@ -38,7 +41,7 @@
 
     <form action="../../index2.jsp" method="post">
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email">
+        <input type="email" class="form-control" placeholder="User ID">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
