@@ -223,12 +223,7 @@ desired effect
     </nav>
   </header>
   
-  
-  
-  
-  
-  
-  
+    
   
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
@@ -236,13 +231,30 @@ desired effect
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
 
+      <!-- search form -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+          <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      <!-- /.search form -->
+      
     <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
+      <li class="header">MAIN NAVIGATION</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Broadcast</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i> <span>Broadcast</span></a></li>
+        
+        <li><a href="#"><i class="fa fa-line-chart"></i> <span>DashBoard</span></a></li>
+        
+        <li><a href="#"><i class="fa fa-institution"></i> <span>Attendance</span></a></li>
+        
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Report</span>
+          <a href="#"><i class="fa fa-bar-chart"></i> <span>Report</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
@@ -252,7 +264,8 @@ desired effect
             <li><a href="#">Monthly</a></li>
           </ul>
         </li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Create Event</span></a></li>
+        
+        <li><a href="#"><i class="fa fa-tasks"></i> <span>Create Event</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -296,13 +309,6 @@ desired effect
     <!-- Default to the left -->
     <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-
-
-
-
-
-
-
 
 
   <!-- Control Sidebar -->
